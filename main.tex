@@ -1,0 +1,92 @@
+\documentclass[12pt]{report} % Default font size is 12pt, it can be changed here
+
+\usepackage{subfigure}
+\usepackage[utf8]{vietnam}
+\usepackage[left=3.5cm, right=2.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{fancybox,graphicx}
+\usepackage[libertine,cmintegrals,cmbraces,vvarbb]{newtxmath}
+\usepackage{xcolor}
+\usepackage{listings}
+
+
+\def\reportSubmissionTerm{10/2023} 
+\def\reportSubmissionDate{10/2023}
+
+
+\def\university{Đại học Bách Khoa Hà Nội}
+\def\universityE{Ha Noi University of Sicence and Technology}
+\def\college{Trường Cơ Khí}
+\def\collegeE{School of Mechanical Engineering}
+
+\def\department{Vi xử lý}
+\def\departmentE{Department of Microprocessor Engineering}
+\def\ReportTitle{Hệ thống đo sử dụng vi xử lý}
+\def\ReportTitleE{A thesis proposal template for students of Hanoi University of Science and Technology}
+
+\def\group{Nhóm 1}
+\def\groupE{Group 1}
+\def\major{Cơ điện tử}
+\def\majorE{Electronics and Electrical Engineering}
+
+%-----------------------------------------------------------
+% List the project members
+%-----------------------------------------------------------
+
+\def\firstAuthor{Ngô Xuân Phong}
+\def\firstAuthorID{20112345}
+\def\secondAuthor{Nguyễn Văn B}
+\def\secondAuthorID{20112346}
+\def\thirdAuthor{Nguyễn Văn C}
+\def\thirdAuthorID{20112347}
+\def\fourthAuthor{Nguyễn Văn D}
+\def\fourthAuthorID{20112348}
+
+%-----------------------------------------------------------
+% Set your report/thesis particulars 
+%-----------------------------------------------------------
+
+\def\supervisor{PGS.TS. Nguyễn Văn A}
+
+\def\place{Hà Nội}
+\def\title{Đề cương luận văn tốt nghiệp}
+\def\titleE{Thesis proposal}
+\def\engtitleE{A thesis proposal template for students of Hanoi University of Science and Technology}
+
+\lstdefinestyle{CStyle}{
+	backgroundcolor=\color{backgroundColour},   
+	commentstyle=\color{mGreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{mGray},
+	stringstyle=\color{mPurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2,
+	language=C
+}
+
+
+%-------------------------------------
+
+\begin{document}
+
+\input{source/Setup/front}
+% %-----------------------------------------------------------
+% % Include Chapters 
+% %-----------------------------------------------------------
+\include{source/Chapters/chapter1}
+\include{source/Chapters/chapter2}
+\include{source/Chapters/chapter3}
+\include{source/Chapters/chapter4}
+\include{source/Chapters/chapter5}
+\include{source/Chapters/appendix}
+%-----------------------------------------------------------
+\input{source/Setup/rear}
+\end{document}
